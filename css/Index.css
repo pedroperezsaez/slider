@@ -1,0 +1,326 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+#body {
+    background-color: rgb(255, 228, 196);
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-sm {
+    display: none;
+}
+
+#nav {
+    background-color: #2a9d8f;
+    font-family: "Poppins";
+}
+
+nav a {
+    color: white !important;
+}
+
+#home {
+    color: #e86f51 !important;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#home:hover {
+    color: #f5a261 !important;
+    font-weight: 800;
+    transition: 0.4s;
+}
+
+#subnoticias {
+    background-color: #2a9d8f;
+}
+
+#noticias {
+    transition: 0.4s;
+}
+
+#noticias:hover {
+    color: #f5a261 !important;
+    font-weight: 800;
+    transition: 0.4s;
+}
+
+#noticias:focus {
+    color: #f5a261 !important;
+    font-weight: 800;
+}
+#calendario {
+    transition: 0.4s;
+}
+#calendario:hover {
+    color: #f5a261 !important;
+    font-weight: 800;
+    transition: 0.4s;
+}
+.dropdown-item:hover {
+    background-color: #f5a261 !important;
+}
+
+#botonnav {
+    background-color: #e86f51 !important;
+}
+
+#twitter,
+#instagram,
+#discord {
+    transition: 0.4s;
+}
+
+#twitter:hover,
+#instagram:hover,
+#discord:hover {
+    color: #f5a261 !important;
+    transition: 0.4s;
+    transform: scale(1.2);
+}
+
+#carousel {
+    margin-top: 8rem;
+    margin-bottom: 1.5rem;
+    width: 900px;
+    
+}
+#car1:hover {
+    transform: scale(1.05) !important;
+    filter: grayscale(0.3) !important;
+    transition: 0.5s !important;
+    transform: translateY(-5px) !important;
+}
+#car2:hover {
+    transform: scale(1.05) !important;
+    filter: grayscale(0.3) !important;
+    transition: 0.5s !important;
+    transform: translateY(-5px) !important;
+}
+
+#car3:hover {
+    transform: scale(1.05) !important;
+    filter: grayscale(0.3) !important;
+    transition: 0.5s !important;
+    transform: translateY(-5px) !important;
+}
+
+.entrada-blog1:hover {
+    transform: translateY(-5px);
+}
+.entrada-blog:hover {
+    transform: translateY(-5px);
+}
+.entrada-blog:hover .imagenprincipal {
+    transform: scale(1.05);
+    filter: grayscale(0.3);
+    transition: 0.5s;
+    transform: translateY(-5px);
+}
+
+.carousel-indicators img {
+    width: 10rem;
+    display: block;
+}
+
+.carousel-indicators button {
+    width: max-content !important;
+}
+
+.carousel-indicators {
+    position: unset !important;
+}
+
+.carousel-indicators button.active img {
+    border: 4px solid #2a9d8f;
+}
+
+.carouselcontainer {
+    background-color: rgb(255, 228, 196) !important;
+    padding-bottom: 5rem;
+}
+.titulocarousel {
+    color: #2a9d8f !important;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.textocarousel {
+    color: #2a9d8f !important;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: fit-content;
+}
+.carousel-caption {
+    left: 0 !important;
+    
+}
+
+.bgcarousel {
+    background-color: rgba(255, 228, 196, 0.801) !important;
+
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.reciente {
+    font-family: "Poppins", sans-serif !important;
+    color: rgb(255, 228, 196) !important;
+    font-weight: bold;
+}
+
+.reciente1 {
+    margin-top: 3rem !important;
+}
+
+.grid1 {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: rgb(255, 228, 196);
+    padding-top: 3rem;
+}
+.grid1:hover {
+    transform: scale(1.05);
+    filter: grayscale(0.3);
+    transition: 0.5s;
+    transform: translateY(-5px);
+}
+.grid2 {
+    background-color: rgb(255, 228, 196);
+    padding-top: 3rem;
+}
+
+.imggrid1 {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.boton1 {
+    padding: 3rem;
+    background-color: #2a9d8f !important;
+    color: rgb(255, 228, 196) !important;
+    font-family: "Poppins" !important;
+    font-weight: 500 !important;
+    transition: 0.4s;
+    margin-top: 2rem;
+}
+
+.boton1:hover {
+    background-color: #f5a261 !important;
+    transition: 0.4s;
+}
+
+.texto1 {
+    text-decoration: none !important;
+    color: #2a9d8f;
+}
+
+.grid1 {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.container2 {
+    margin-top: 5rem;
+}
+
+.gridconj {
+    background-color: #2a9d8f;
+}
+
+.stickyconj {
+    background-color: rgb(255, 228, 196);
+}
+.calendariotitulo {
+    background-color: #2a9d8f !important;
+    color: rgb(255, 228, 196) !important;
+}
+.calendariotitulo1:hover {
+    background-color: rgb(255, 228, 196) !important;
+    color: #2a9d8f !important;
+    transition: 0.5s;
+}
+.calendariotitulo1 {
+    background-color: #2a9d8f !important;
+    color: rgb(255, 228, 196) !important;
+    transition: 0.5s;
+}
+.vermas {
+    color: rgb(255, 228, 196) !important;
+    transition: 0.5s;
+}
+.vermas:hover {
+    color: #2a9d8f !important;
+    transition: 0.5s;
+}
+.sticky-top {
+    top: 70px !important;
+}
+
+.footer {
+    background-color: #2a9d8f;
+
+    font-family: "Poppins";
+}
+.footer p {
+    color: rgb(255, 228, 196) !important;
+}
+.footermas {
+    color: rgb(255, 228, 196) !important;
+}
+
+
+@media (max-width: 1330px) {
+    .carousel-indicators img {
+        width: 10rem;
+    }
+
+    .carouselcontainer {
+        padding-bottom: 4rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .carousel-indicators img {
+        display: none;
+    }
+
+    .carouselcontainer {
+        padding-bottom: 0.4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .imggrid1 {
+        border-top-right-radius: 100px;
+    }
+
+    .boton1 {
+        margin-top: 0;
+        text-align: left;
+    }
+}
+
+@media (min-width: 768px) {
+    .logo-sm {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .logo-lg {
+        display: none;
+    }
+
+    .logo-sm {
+        display: block;
+    }
+}

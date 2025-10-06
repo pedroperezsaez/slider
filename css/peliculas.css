@@ -1,0 +1,246 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+#body {
+    background-color: rgba(255, 228, 196, 0.548) !important;
+}
+#nav {
+    background-color: #2a9d8f;
+    font-family: "Poppins";
+}
+nav a {
+    color: white !important;
+}
+#home {
+    transition: 0.4s;
+}
+#home:hover {
+    color: #f5a261 !important; /* esto sirve para cambiar el color cuando se hace click */
+    font-weight: 800;
+    transition: 0.4s;
+}
+
+#subnoticias {
+    background-color: #2a9d8f;
+}
+#noticias {
+    color: #e86f51 !important;
+    font-weight: bold;
+    font-size: larger;
+    transition: 0.4s;
+}
+#noticias:hover {
+    color: #f5a261 !important; /* esto sirve para cambiar el color cuando se hace click */
+    font-weight: 800;
+    transition: 0.4s;
+}
+#noticias:focus {
+    color: #f5a261 !important; /* esto sirve para cambiar el color cuando se hace click */
+    font-weight: 800;
+}
+#calendario {
+    transition: 0.4s;
+}
+#calendario:hover {
+    color: #f5a261 !important; /* esto sirve para cambiar el color cuando se hace click */
+    font-weight: 800;
+    transition: 0.4s;
+}
+
+#peliculas {
+    background-color: #e86f51 !important;
+}
+
+.altura {
+    height: 23rem;
+}
+.dropdown-item:hover {
+    background-color: #f5a261 !important;
+}
+
+#botonnav {
+    background-color: #e86f51 !important;
+}
+
+#twitter {
+    transition: 0.4s;
+}
+#twitter:hover {
+    color: #f5a261 !important;
+    transition: 0.4s;
+    transform: scale(1.2);
+}
+#instagram {
+    transition: 0.4s;
+}
+#instagram:hover {
+    color: #f5a261 !important;
+    transition: 0.4s;
+    transform: scale(1.2);
+}
+#discord {
+    transition: 0.4s;
+}
+#discord:hover {
+    color: #f5a261 !important;
+    transition: 0.4s;
+    transform: scale(1.2);
+}
+#carousel {
+    margin-top: 8rem;
+}
+.carousel-indicators img {
+    width: 15rem;
+    display: block;
+}
+.carousel-indicators button {
+    width: max-content !important;
+}
+.carousel-indicators {
+    position: unset !important;
+}
+.carousel-indicators button.active img {
+    border: 4px solid #e86f51;
+}
+.carouselcontainer {
+    padding-bottom: 5rem;
+}
+
+.clasecontenedorimagen {
+    height: 100%;
+    min-height: 300px;
+
+    overflow: hidden;
+}
+
+.imagenprincipal {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    min-height: 300px;
+}
+
+.entrada-blog {
+    transition: transform 0.3s ease;
+}
+.entrada-blog1 {
+    transition: transform 0.3s ease;
+}
+.entrada-blog1:hover {
+    transform: translateY(-5px);
+}
+.entrada-blog:hover {
+    transform: translateY(-5px);
+}
+.entrada-blog:hover .imagenprincipal {
+    transform: scale(1.05);
+    filter: grayscale(0.3);
+    transition: 0.5s;
+    transform: translateY(-5px);
+}
+.titulopost {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(255, 228, 196);
+    margin-top: 2rem;
+
+    height: 200px;
+}
+@media (max-width: 1330px) {
+    .titulopost {
+        height: 150px;
+    }
+}
+
+.titulopost1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(255, 228, 196);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.textoresumen {
+    color: rgb(255, 228, 196);
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+}
+.fechaentrada {
+    background-color: #2a9d904f;
+    color: #f5a261;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+    width: 70px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important;
+}
+
+.detallesentrada {
+    background: #2a9d8f;
+}
+
+.enlaceleermas {
+    color: rgb(255, 228, 196) !important;
+    transition: all 0.3s ease;
+    text-decoration: none !important;
+    font-weight: 600 !important;
+    font-style: italic;
+    font-family: "Poppins", sans-serif;
+}
+
+.enlaceleermas:hover {
+    color: #f5a261 !important;
+}
+.entradabloginicio {
+    margin-top: 8rem !important;
+}
+
+.lateral {
+    background-color: #2a9d8f;
+    color: #f5a261;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.titulodestacado {
+    background-color: #f5a261;
+    color: #2a9d8f;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.footer {
+    background-color: #2a9d8f;
+
+    font-family: "Poppins";
+}
+.footer p {
+    color: rgb(255, 228, 196) !important;
+}
+.footermas {
+    color: rgb(255, 228, 196) !important;
+}
+
+@media (max-width: 1330px) {
+    .carousel-indicators img {
+        width: 10rem;
+    }
+    .carouselcontainer {
+        padding-bottom: 4rem;
+    }
+}
+@media (max-width: 900px) {
+    .carousel-indicators img {
+        display: none;
+    }
+    .carouselcontainer {
+        padding-bottom: 0.4rem;
+    }
+}
+@media (max-width: 1399px) {
+    .titulopost1 {
+        height: 200px !important;
+    }
+}

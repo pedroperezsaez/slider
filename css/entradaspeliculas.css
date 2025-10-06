@@ -1,0 +1,151 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css");
+#body {
+    background-color: rgb(255, 228, 196);
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-sm {
+    display: none;
+}
+
+#nav {
+    background-color: #2a9d8f;
+    font-family: "Poppins";
+}
+nav a {
+    color: white !important;
+}
+#home {
+    transition: 0.4s;
+}
+#home:hover {
+    color: #f5a261 !important; /* esto sirve para cambiar el color cuando se hace click */
+    font-weight: 800;
+    transition: 0.4s;
+}
+
+#subnoticias {
+    background-color: #2a9d8f;
+}
+#noticias {
+    color: #e86f51 !important;
+    font-weight: bold;
+    font-size: larger;
+    transition: 0.4s;
+}
+#noticias:hover {
+    color: #f5a261 !important; /* esto sirve para cambiar el color cuando se hace click */
+    font-weight: 800;
+    transition: 0.4s;
+}
+#noticias:focus {
+    color: #f5a261 !important; /* esto sirve para cambiar el color cuando se hace click */
+    font-weight: 800;
+}
+#calendario {
+    transition: 0.4s;
+}
+#calendario:hover {
+    color: #f5a261 !important; /* esto sirve para cambiar el color cuando se hace click */
+    font-weight: 800;
+    transition: 0.4s;
+}
+
+#peliculas {
+    background-color: #e86f51 !important;
+}
+
+.altura {
+    height: 23rem;
+}
+.dropdown-item:hover {
+    background-color: #f5a261 !important;
+}
+
+#botonnav {
+    background-color: #e86f51 !important;
+}
+
+#twitter {
+    transition: 0.4s;
+}
+#twitter:hover {
+    color: #f5a261 !important;
+    transition: 0.4s;
+    transform: scale(1.2);
+}
+#instagram {
+    transition: 0.4s;
+}
+#instagram:hover {
+    color: #f5a261 !important;
+    transition: 0.4s;
+    transform: scale(1.2);
+}
+#discord {
+    transition: 0.4s;
+}
+#discord:hover {
+    color: #f5a261 !important;
+    transition: 0.4s;
+    transform: scale(1.2);
+}
+.footer {
+    background-color: #2a9d8f;
+
+    font-family: "Poppins";
+}
+.footer p {
+    color: rgb(255, 228, 196) !important;
+}
+.footermas {
+    color: rgb(255, 228, 196) !important;
+}
+.entrada {
+    margin-top: 8rem;
+    border: #e86f51;
+}
+.titulo {
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: left;
+    color: #2a9d8f;
+}
+.subtitulo {
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 1.1rem;
+    font-weight: normal;
+    text-align: left;
+}
+.fecha {
+    text-align: left;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+.borde {
+    border: 1px solid rgba(128, 128, 128, 0.363);
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+.botonenviar {
+    font-family: "Poppins";
+    background-color: #2a9d8f;
+}
+.titulodentrodetexto {
+    font-family: "Poppins";
+    color: #2a9d8f;
+    font-weight: bold;
+}
+.dejatucomentario {
+    font-family: "Poppins";
+    color: #2a9d8f;
+    font-weight: 600;
+}
